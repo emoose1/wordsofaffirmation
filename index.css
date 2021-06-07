@@ -1,11 +1,14 @@
 html{
-
+    display: flex;
+    justify-content: center;
 }
 
 body {
+    display: flex;
+    justify-content: center;
     font-family: 'Fira Sans', sans-serif;
     color: black;
-    font-size: 1.75vw;
+    font-size: 1.5em;
     text-align: center;
     background: #FEAC5E;
     background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
@@ -13,11 +16,13 @@ body {
 
 }
 button {
-    margin-top: 1.5vw;
+    margin: 1em;
 }
 h1 {
-    font-size: 2;
+    font-size: 1.75rem;
 }
 .card {
-    margin: 2vw 0;
+    min-width: 85%;
+    min-height:  70%;
+    margin: 2em 2em;
 }
