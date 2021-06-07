@@ -2,6 +2,10 @@ html, body {
     font-family: 'Fira Sans', sans-serif;
     font-size: 1.5rem;
     text-align: center;
+    background: #FEAC5E;
+    background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+    background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); 
+
 }
 button {
     margin-top: 1.5rem;
