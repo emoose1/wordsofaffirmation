@@ -1,6 +1,11 @@
-html, body {
+html{
+
+}
+
+body {
     font-family: 'Fira Sans', sans-serif;
-    font-size: 1.5rem;
+    color: black;
+    font-size: 1.75vw;
     text-align: center;
     background: #FEAC5E;
     background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
@@ -8,8 +13,11 @@ html, body {
 
 }
 button {
-    margin-top: 1.5rem;
+    margin-top: 1.5vw;
+}
+h1 {
+    font-size: 2;
 }
 .card {
-    margin: 1rem
+    margin: 2vw 0;
 }

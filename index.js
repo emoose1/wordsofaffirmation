@@ -10,11 +10,11 @@ $.getJSON("affirmations.json", function(json) {
 });
 
 function getAffirmation() {
-    randomAffirmation = affirmations[Math.round((Math.random() * (affirmations.length - 1)))].A
+    randomAffirmation = affirmations[Math.round((Math.random() * (affirmations.length - 1)))].affirmations
     emoji = emojis[Math.round((Math.random() * (emojis.length - 1)))]
     affirmation = randomAffirmation + " " + emoji
 
-    return document.getElementById('affirmation').innerHTML = affirmation;
+    return document.getElementById('affirmation-text').innerHTML = affirmation;
 }
 
 function showDiv() {
